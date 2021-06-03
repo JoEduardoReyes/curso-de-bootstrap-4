@@ -1,6 +1,26 @@
+.text-platzi {
+  color: #97c93e !important;
+}
+.text-platzi:hover {
+  color: white !important;
+}
+
+#header img {
+  width: 80px;
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+}
+
 #footer {
   background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5472));
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+  text-align: center;
 }
 #footer a {
   color: white;
