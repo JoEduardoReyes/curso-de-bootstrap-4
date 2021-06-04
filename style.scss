@@ -1,13 +1,26 @@
+$verde-platzi: #97c93e;
+$verde-platzi-oscuro: darken($verde-platzi, 20%);
+
 body {
   min-width: 320px;
 }
 
 .text-platzi {
-  color: #97c93e !important;
+  color: $verde-platzi !important;
   &:hover {
     color: white !important;
   }
 }
+
+.btn-platzi {
+  background-color: $verde-platzi;
+  color: white;
+  border: 1px solid $verde-platzi-oscuro !important;
+  &:hover {
+    background-color: $verde-platzi-oscuro;
+  }
+}
+
 #header {
   img {
     width: 80px;

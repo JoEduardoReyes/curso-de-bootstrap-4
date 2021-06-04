@@ -9,6 +9,15 @@ body {
   color: white !important;
 }
 
+.btn-platzi {
+  background-color: #97c93e;
+  color: white;
+  border: 1px solid #5d7e23 !important;
+}
+.btn-platzi:hover {
+  background-color: #5d7e23;
+}
+
 #header img {
   width: 80px;
 }
