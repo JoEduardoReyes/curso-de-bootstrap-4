@@ -48,6 +48,14 @@ body {
   height: 100%;
 }
 
+#place-time {
+  background-color: #343a40;
+  color: white;
+}
+#place-time img {
+  max-width: 100%;
+}
+
 #footer {
   background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5472));
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
