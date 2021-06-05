@@ -17,12 +17,21 @@
     <link rel="stylesheet" href="style.css" />
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbarSupportedContent"
+    data-bs-offset="57"
+  >
     <!-- header -->
     <header>
       <nav
         id="header"
-        class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid"
+        class="
+          navbar navbar-expand-lg navbar-dark
+          bg-dark
+          container-fluid
+          fixed-top
+        "
       >
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -47,18 +56,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >La conferencia</a
-                >
+                <a class="nav-link" href="#main">La conferencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
+                <a class="nav-link" href="#speakers">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Lugar y fecha</a>
+                <a class="nav-link" href="#place-time">Lugar y fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Se un orador</a>
+                <a class="nav-link" href="#ser-orador">Se un orador</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-platzi" href="#">Comprar tickets</a>
