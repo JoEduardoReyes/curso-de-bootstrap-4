@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -384,7 +384,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Comprar Tickets</h5>
             <button
               type="button"
               class="btn-close"
@@ -392,16 +392,74 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">...</div>
+          <div class="modal-body">
+            <form>
+              <p>
+                Para asistir a la Platzi Conf Hawaii 2025, primero debes
+                registrarte
+              </p>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Correo electronico</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div id="emailHelp" class="form-text">
+                  Nunca vamos a compartir tu correo con nadie
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre de usuario"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Acepto las condiciones de uso</label
+                >
+              </div>
+            </form>
+          </div>
           <div class="modal-footer">
+            <div class="alert alert-success" role="alert">
+              ¡Recibiras un correo con tu entrada y tu factura!
+            </div>
             <button
               type="button"
               class="btn btn-secondary"
               data-bs-dismiss="modal"
             >
-              Close
+              Cancelar
             </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-primary btn-platzi">
+              Comprar
+            </button>
           </div>
         </div>
       </div>
